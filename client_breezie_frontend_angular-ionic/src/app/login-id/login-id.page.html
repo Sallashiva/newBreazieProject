@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start" class="back-button">
+            <!-- <h5 (click)="navigateToLogin()">
+                <mat-icon style="position: relative;top: 5px;">keyboard_backspace</mat-icon>Back</h5> -->
+            <ion-back-button class="backbutton" (click)="navigateToLogin()"></ion-back-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+    <!-- <h5 (click)="navigateToLogin()" style="margin-top: 50px;">
+        <mat-icon style="position: relative;top: 5px;">keyboard_backspace</mat-icon>Back</h5> -->
+    <div class="text-center form">
+        <form [formGroup]="rForm">
+            <p class="mt-3">Please Enter Your Device ID</p>
+            <mat-form-field class="example-full-width" appearance="standard">
+                <input type="text" matInput formControlName="deviceId">
+            </mat-form-field>
+            <br>
+            <button type="submit" class=" btn btn-primary loginBtn" (click)="onSubmit(rForm)">Log in</button>
+        </form>
+    </div>
+</ion-content>

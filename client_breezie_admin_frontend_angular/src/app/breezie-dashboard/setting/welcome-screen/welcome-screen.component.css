@@ -1,0 +1,389 @@
+.heading h4 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #231F20;
+}
+
+.heading p {
+  color: #231F20;
+  opacity: 0.8;
+}
+
+/* .img-container {
+  width: 600px;
+  height: 500px;
+} */
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.img-prev {
+  margin-top: 10px;
+  height: 100%;
+}
+
+.img-slide {
+  cursor: pointer;
+  height: 100%;
+  border: none;
+  background-color: white;
+  padding: 0px;
+}
+
+.img-slide img {
+  height: 130px;
+  width:100%;
+  border-radius: 5px;
+}
+
+.img-slide1 {
+  opacity: 0.6 !important;
+}
+
+.card3 {
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 2px gray;
+  height: 100%;
+}
+
+.imageAction button {
+  border: none;
+  background: transparent;
+}
+
+.card1 {
+  margin-bottom: 40px;
+  border: 4px solid #C0C0C0;
+  border-radius: 25px;
+  padding: 9px 9px 10px 10px;
+  /* height: 500px; */
+  height: 400px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.bordercard {
+  position: absolute;
+  padding: 10px;
+  top: 87%;
+  left: 5%;
+}
+
+.card2 {
+  margin-bottom: 10px;
+  border: 4px solid #C0C0C0;
+  border-radius: 25px;
+  padding: 9px 9px 10px 10px;
+  /* width: 80%; */
+  width: 400px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.previewImage2 {
+  outline: 10px solid black;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.previewImage img {
+  box-shadow: 0px 0px 4px lightgray;
+  border-radius: 10px;
+
+}
+
+.previewImage {
+  height: 100%;
+}
+
+.add {
+  cursor: pointer;
+}
+
+.visitorin {
+  position: absolute;
+  top: 80%;
+  /* left: 50%; */
+  padding: 15px 50px;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  border: none;
+}
+.visitorin2 {
+    position: absolute;
+    background-color: #1D447D;
+    width: 300px;
+    height: 80px;
+    border: white;
+    border-radius: 40px;
+    transform: translate(12%, -40%);
+}
+
+
+.visitorin h1 {
+  font-weight: 500;
+
+
+}
+
+.pick {
+  width: 28%;
+  position: absolute;
+  top: 77%;
+  left: 3%;
+}
+
+.colorpopup {
+  position: absolute;
+  top: 78%;
+  left: 30px;
+}
+
+.colorbutton {
+  border: 1px solid black;
+  margin-top: 0px;
+  width: 140px;
+  background-color: lightgrey;
+
+}
+
+.colordisplay {
+  background: none;
+  border: none;
+  width: 38px;
+  margin-left: -45px;
+}
+
+.file {
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 155px;
+  margin-top: 25px;
+  margin-right: 40px;
+  width: 100%;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+label {
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.corner {
+  border-radius: 50px;
+}
+
+.border {
+  border-radius: 0px;
+}
+
+.submit {
+  background: #004AB6;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  padding: 7px 30px;
+  margin-right: 30px;
+  margin-bottom: 30%;
+}
+
+.disabled:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.spinner {
+  position: fixed;
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+ :host::ng-deep mat-spinner{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.orientation {
+  font-size: 15px;
+}
+
+.orientation:hover {
+  color: #004AB6;
+}
+
+.frameColor {
+  font-size: 15px;
+
+}
+
+.frameColor:hover {
+  color: #004AB6;
+}
+
+.delete i:hover {
+  color: #004AB6;
+}
+
+::ng-deep.toast-top-right {
+  top: 12px;
+  right: 25px !important;
+}
+
+.fa-eye:hover{
+  color: #004AB6;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ca2222;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2ab934;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(55px);
+  -ms-transform: translateX(55px);
+  transform: translateX(55px);
+}
+
+/*------ ADDED CSS ---------*/
+.on
+{
+  display: none;
+}
+
+.on, .off
+{
+  color: white;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+input:checked+ .slider .on
+{display: block;}
+
+input:checked + .slider .off
+{display: none;}
+
+/*--------- END --------*/
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+.button-background {
+  position: absolute;
+  background-color: #1D447D;
+  width: 300px;
+  height: 80px;
+  border: white;
+  border-radius: 40px;
+  transform: translate(30%, -90%);
+}
+
+#slider {
+  transition: width 0.3s, border-radius 0.3s, height 0.3s;
+  position: absolute;
+  left: 2px;
+  background-color: white;
+  width: 130px;
+  height: 70px;
+  border-radius: 44px;
+  top: 0px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#slider p {
+  position: absolute;
+  top: 23px;
+  left: 15px;
+  color: #1D447D;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#slider .unlocked {
+  transition: all 0.3s;
+  width: inherit;
+  left: 0 !important;
+  height: inherit;
+  border-radius: inherit;
+}
+.slide-text {
+  color: #FDFDFD;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  left: 150px;
+  top: 28px;
+  opacity: 0.2;
+}
+#slider input{
+  padding: 0px;
+    position: absolute;
+    left: 0px;
+    transform: translate(-23%, 90%);
+}
+.deleteIcon{
+  font-size: 17px;
+}
+.slider.round:before {
+  border-radius: 50%;}
+
+
